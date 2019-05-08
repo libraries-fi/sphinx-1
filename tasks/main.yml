@@ -12,6 +12,6 @@
 - include: config.yml
 
 - name: Be sure sphinxsearch is running and enabled
-  service: name=sphinxsearch state=restarted enabled=yes
+  service: name=sphinxsearch state=started enabled=yes
   tags:
     - test
